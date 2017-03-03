@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.textView);
         button = (Button) findViewById(R.id.button);
 
-        textView.setText("測試");
+        textView.setText("GitHub");
         textView.setBackgroundColor(Color.BLUE);
 
         ButtonListener buttonListener = new ButtonListener();
